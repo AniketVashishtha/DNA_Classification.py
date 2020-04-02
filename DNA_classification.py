@@ -4,7 +4,7 @@ import sklearn
 import pandas as pd
 
 # import the uci Molecular Biology (Promoter Gene Sequences) Data Set
-url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/molecular-biology/promoter-gene-sequences/promoters.data'
+url = 'ftp://ftp.ics.uci.edu/pub/machine-learning-databases/molecular-biology/promoter-gene-sequences'
 names = ['Class', 'id', 'Sequence']
 data = pd.read_csv(url, names = names)
 
